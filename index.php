@@ -1,4 +1,4 @@
-<!doctype html>
+<?php?>
 <html lang="en">
 <head>
     <meta charset="utf-8">
@@ -69,7 +69,9 @@
         countUpFromTime.interval = setTimeout(function(){ countUpFromTime(countFrom, id); }, 1000);
         }
     </script> -->
-    <?php 
+    
+
+    
         <script>
             $(function() {
                 var BV = new $.BigVideo();
@@ -77,7 +79,6 @@
                 BV.show('./vids/snow_small.mp4',{doLoop:true});
             });
         </script>
-    ?>
     <!-- <div class="countup" id="countup1">
         <span class="timeel years">00</span>
         <span class="timeel timeRefYears">years</span>
@@ -97,3 +98,4 @@
     
 </body>
 </html>
+
